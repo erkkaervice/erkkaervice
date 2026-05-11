@@ -26,7 +26,7 @@ I bridge the gap between complex technical infrastructure and pragmatic business
 
 | Category | Technologies & Competencies |
 | :--- | :--- |
-| **Systems & OS** | **Debian Family:** Debian, Ubuntu, Kali, Tails <br> **Arch Family:** Arch Linux, SystemRescue, SteamOS <br> **Fedora Family:** Fedora, RHEL, CentOS <br> **Declarative/Minimal:** NixOS, Alpine Linux, openSUSE <br> **Other:** macOS (Homebrew), Termux |
+| **Systems & OS** | **Debian Family:** Debian, Ubuntu, Kali, Tails <br> **Arch Family:** Arch Linux, SystemRescue, SteamOS <br> **Fedora Family:** Fedora, RHEL, CentOS <br> **Declarative/Minimal:** NixOS, Alpine Linux, openSUSE <br> **Other:** macOS, Termux |
 | **Development** | TypeScript, JavaScript, Python, SQL, Shell (Bash/Zsh/Fish) |
 | **Infrastructure** | Docker, Docker Compose, NGINX, Network Administration |
 | **Security** | GPG/SSH Security Hardening, Network Isolation, Cryptographic Standards |
