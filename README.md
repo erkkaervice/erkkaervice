@@ -80,5 +80,6 @@ Graduate of Hive Helsinki’s peer-to-peer curriculum. I focus on creating seaml
 ---
 
 ### GitHub Metrics
-![Erkka's Stats](https://github-readme-stats.vercel.app/api?username=erkkaervice&show_icons=true&theme=radical&hide_border=true)
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=erkkaervice&show_icons=true&theme=dark&hide_border=true)
 ![GitHub Activity](https://img.shields.io/github/commit-activity/y/erkkaervice?style=flat-square&color=blue)
