@@ -9,7 +9,7 @@
 ### Technical Skills
 
 * **Languages:** TypeScript, JavaScript, Python, C, C++, SQL, Shell Scripting (Bash, Zsh, Fish)
-* **Web & Databases:** React, Next.js, MariaDB, Prisma ORM, PostgreSQL
+* **Web & Databases:** React, Next.js, MariaDB, Prisma ORM
 * **DevOps & Infrastructure:** Docker, Docker Compose, NGINX, Git, Network Administration
 * **Security:** GPG/SSH Security Hardening, Network Isolation, Cryptographic Standards
 * **Networking:** TCP/IP, HTTP/1.1, Sockets, I/O Multiplexing, Subnetting, Routing
@@ -30,7 +30,7 @@ I bridge the gap between complex technical infrastructure and pragmatic business
 | **Development** | TypeScript, JavaScript, Python, SQL, Shell (Bash/Zsh/Fish) |
 | **Infrastructure** | Docker, Docker Compose, NGINX, Network Administration |
 | **Security** | GPG/SSH Security Hardening, Network Isolation, Cryptographic Standards |
-| **Web & Data** | React, Next.js, MariaDB, Prisma ORM, PostgreSQL |
+| **Web & Data** | React, Next.js, MariaDB, Prisma ORM |
 | **Networking** | TCP/IP, HTTP/1.1, Sockets, I/O Multiplexing, Subnetting, Routing |
 
 ---
@@ -40,7 +40,7 @@ I bridge the gap between complex technical infrastructure and pragmatic business
 #### [hive-transcendence](https://github.com/erkkaervice/hive-transcendence)
 *Full-Stack Architecture & Real-Time Systems*
 - **The Challenge:** Architecting a real-time, multi-user web ecosystem with centralized authentication and a containerized backend.
-- **The Solution:** Developed a Single Page Application (SPA) utilizing **Next.js** and **PostgreSQL**, orchestrated via **Docker**.
+- **The Solution:** Developed a Single Page Application (SPA) utilizing **Next.js** and **MariaDB**, orchestrated via **Docker**.
 - **Competency:** Full-stack integration, real-time data synchronization, and containerized deployment.
 
 #### [hive-webserv](https://github.com/erkkaervice/hive-webserv)
