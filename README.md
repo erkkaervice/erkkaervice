@@ -9,7 +9,6 @@
 ### Technical Skills
 
 * **Languages:** TypeScript, JavaScript, Python, C, C++, SQL, Shell Scripting (Bash, Zsh, Fish)
-* **Systems & OS:** **Debian** (Ubuntu, Kali, Tails), **Arch** (SystemRescue, SteamOS), **Fedora** (RHEL, CentOS), **Minimal** (NixOS, Alpine), macOS, Termux
 * **DevOps & Infrastructure:** Docker, Docker Compose, NGINX, Git, Network Administration
 * **Web & Databases:** React, Next.js, MariaDB, Prisma ORM
 * **Security:** GPG/SSH Security Hardening, Network Isolation, Cryptographic Standards
