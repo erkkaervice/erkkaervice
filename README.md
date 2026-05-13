@@ -9,8 +9,9 @@
 ### Technical Skills
 
 * **Languages:** TypeScript, JavaScript, Python, C, C++, SQL, Shell Scripting (Bash, Zsh, Fish)
-* **Web & Databases:** React, Next.js, MariaDB, Prisma ORM
+* **Systems & OS:** **Debian** (Ubuntu, Kali, Tails), **Arch** (SystemRescue, SteamOS), **Fedora** (RHEL, CentOS), **Minimal** (NixOS, Alpine), macOS, Termux
 * **DevOps & Infrastructure:** Docker, Docker Compose, NGINX, Git, Network Administration
+* **Web & Databases:** React, Next.js, MariaDB, Prisma ORM
 * **Security:** GPG/SSH Security Hardening, Network Isolation, Cryptographic Standards
 * **Networking:** TCP/IP, HTTP/1.1, Sockets, I/O Multiplexing, Subnetting, Routing
 
@@ -19,19 +20,6 @@
 ### Professional Profile
 
 I bridge the gap between complex technical infrastructure and pragmatic business requirements. Following a decade of entrepreneurship and operational leadership, I graduated from Hive Helsinki to pivot into systems engineering. I specialize in building hardened, reliable infrastructure—from network protocol implementation to modern container orchestration—while maintaining a focus on functional reliability and high-pressure project delivery.
-
----
-
-### Technical Expertise
-
-| Category | Technologies & Competencies |
-| :--- | :--- |
-| **Systems & OS** | **Debian Family:** Debian, Ubuntu, Kali, Tails <br> **Arch Family:** Arch Linux, SystemRescue, SteamOS <br> **Fedora Family:** Fedora, RHEL, CentOS <br> **Declarative/Minimal:** NixOS, Alpine Linux, openSUSE <br> **Other:** macOS, Termux |
-| **Development** | TypeScript, JavaScript, Python, SQL, Shell (Bash/Zsh/Fish) |
-| **Infrastructure** | Docker, Docker Compose, NGINX, Network Administration |
-| **Security** | GPG/SSH Security Hardening, Network Isolation, Cryptographic Standards |
-| **Web & Data** | React, Next.js, MariaDB, Prisma ORM |
-| **Networking** | TCP/IP, HTTP/1.1, Sockets, I/O Multiplexing, Subnetting, Routing |
 
 ---
 
