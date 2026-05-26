@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Erkka Ala-Lahti</h1>
-  <p><strong>Software Developer | IT Operations Specialist</strong></p>
+  <p><strong>Software Developer | Systems & IT Operations</strong></p>
   <p>Helsinki, Finland • <a href="https://linkedin.com/in/erkka-ala-lahti/">LinkedIn</a></p>
 </div>
 
