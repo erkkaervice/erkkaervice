@@ -1,0 +1,13 @@
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+
+# OS & editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+node_modules/
