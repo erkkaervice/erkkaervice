@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="276" viewBox="0 0 1040 276" fill="none" role="img" aria-label="Event and Streaming Platform Architecture">
+  <defs>
+    <marker id="arr-light" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 1.5 L 8.5 5 L 1 8.5" fill="none" stroke="#0284c7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- Column 1: Clients -->
+  <text x="0" y="16" fill="#71717a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="1.6">01 / CLIENTS &amp; EDGE</text>
+
+  <rect x="0" y="30" width="250" height="68" rx="8" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="16" y="56" fill="#09090b" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="14" font-weight="600">Web Portal &amp; Admin</text>
+  <text x="16" y="78" fill="#52525b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">Sub-5ms Brotli/ETag · Auth</text>
+
+  <rect x="0" y="112" width="250" height="68" rx="8" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="16" y="138" fill="#09090b" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="14" font-weight="600">Offline-First Foldable PWA</text>
+  <text x="16" y="160" fill="#52525b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">SW Cache · Split/Tabletop UI</text>
+
+  <rect x="0" y="194" width="250" height="68" rx="8" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="16" y="220" fill="#09090b" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="14" font-weight="600">Wear OS &amp; MediaSession</text>
+  <text x="16" y="242" fill="#52525b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">Lock-screen Radio &amp; Glance</text>
+
+  <!-- Connectors 1 -> 2 -->
+  <path d="M 250 64 C 300 64, 300 112, 352 112" stroke="#0284c7" stroke-width="1.25" marker-end="url(#arr-light)"/>
+  <path d="M 250 146 H 352" stroke="#0284c7" stroke-width="1.25" marker-end="url(#arr-light)"/>
+  <path d="M 250 228 C 300 228, 300 180, 352 180" stroke="#0284c7" stroke-width="1.25" marker-end="url(#arr-light)"/>
+
+  <!-- Column 2: Core Platform -->
+  <text x="356" y="16" fill="#71717a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="1.6">02 / API &amp; SECURITY BOUNDARY</text>
+
+  <rect x="356" y="30" width="328" height="148" rx="8" fill="#fafafa" stroke="#0284c7" stroke-opacity="0.55" stroke-width="1"/>
+  <circle cx="376" cy="54" r="3.5" fill="#059669"/>
+  <text x="388" y="58" fill="#09090b" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="15" font-weight="600">Fastify 5 + tRPC 11 + SSE</text>
+  <text x="372" y="84" fill="#52525b" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="12.5">Single-Port TLS 1.3 · Bounded Zod 4</text>
+  <text x="372" y="106" fill="#52525b" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="12.5">Fail-Closed Admin Bearer (timingSafeEqual)</text>
+  <text x="372" y="128" fill="#52525b" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="12.5">HMAC-SHA256 Stream Tokens · SSRF Guard</text>
+  <text x="372" y="156" fill="#71717a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">OWASP ASVS L3 · 0 CVE · 749 TESTS</text>
+
+  <rect x="356" y="194" width="328" height="68" rx="8" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="372" y="220" fill="#09090b" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="14" font-weight="600">packages/shared (Pure TS)</text>
+  <text x="372" y="242" fill="#52525b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">Offline Bundles · Haversine · ICS · SigV4</text>
+
+  <!-- Connectors 2 -> 3 -->
+  <path d="M 684 82 C 736 82, 736 64, 786 64" stroke="#0284c7" stroke-width="1.25" marker-end="url(#arr-light)"/>
+  <path d="M 684 114 C 736 114, 736 146, 786 146" stroke="#0284c7" stroke-width="1.25" marker-end="url(#arr-light)"/>
+  <path d="M 684 146 C 736 146, 736 228, 786 228" stroke="#0284c7" stroke-width="1.25" marker-end="url(#arr-light)"/>
+
+  <!-- Column 3: Data & Media -->
+  <text x="790" y="16" fill="#71717a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="1.6">03 / DATA &amp; MEDIA</text>
+
+  <rect x="790" y="30" width="250" height="68" rx="8" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="806" y="56" fill="#09090b" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="14" font-weight="600">PostgreSQL 16 + PostGIS</text>
+  <text x="806" y="78" fill="#52525b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">Drizzle ORM · Geospatial POIs</text>
+
+  <rect x="790" y="112" width="250" height="68" rx="8" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="806" y="138" fill="#09090b" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="14" font-weight="600">MediaMTX + FFmpeg</text>
+  <text x="806" y="160" fill="#52525b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">RTMP/SRT -&gt; LL-HLS · AAC Radio</text>
+
+  <rect x="790" y="194" width="250" height="68" rx="8" fill="#fafafa" stroke="#e4e4e7" stroke-width="1"/>
+  <text x="806" y="220" fill="#09090b" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="14" font-weight="600">S3 Object Storage &amp; Redis</text>
+  <text x="806" y="242" fill="#52525b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">Presigned Uploads · Queues</text>
+</svg>
