@@ -2,7 +2,7 @@
 
 *Private repository — Ervice Oy (Helsinki, Finland)* · [Back to Profile](../README.md)
 
-A zero-dependency Node.js orchestration, guardrail, and telemetry platform running 24/7 on constrained self-hosted Debian hardware (1.7 GiB RAM, `systemd`, `cgroups`, `zram`). It accelerates code maintenance, testing, and refactoring across repositories while enforcing strict deterministic safety boundaries before any pull request is opened.
+A zero-dependency Node.js orchestration, guardrail, and telemetry platform running continuously on constrained self-hosted Debian hardware (`systemd`, `cgroups`, `zram`). It accelerates code maintenance, testing, and refactoring across repositories while enforcing strict deterministic safety boundaries before any pull request is opened.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../assets/arch-agent-farm-dark.svg">
@@ -13,8 +13,8 @@ A zero-dependency Node.js orchestration, guardrail, and telemetry platform runni
 ## Key Engineering Capabilities
 
 - **Multi-Provider Quota Routing:** Coordinates models across multiple providers with automated cooldowns, failure-signature circuit breakers, and tiered Planner -> Coder -> Reviewer escalation.
-- **Zero-Token Deterministic Gates:** Runs before LLM review to reject no-op diffs, unused imports, unreferenced helper functions, secret patterns (28 curated signatures), symlink/path escapes, and repository language mismatches.
+- **Zero-Token Deterministic Gates:** Runs before LLM review to reject no-op diffs, unused imports, unreferenced helper functions, secret leaks, symlink/path escapes, and repository language mismatches.
 - **Local-First Collaborator Safety:** Respects each repository's own rules (`CLAUDE.md`, `.github/copilot-instructions.md`), opens isolated pull requests only, and keeps final merges strictly under human control.
-- **Operations & Observability:** Single-Port TLS 1.3 web dashboard and mobile-ready Tmux web terminal, automated log/git hygiene, daily toolchain/CVE drift checks, and manifest parity verification across 85 automated tests.
+- **Operations & Observability:** Single-Port TLS web dashboard and mobile-ready Tmux web terminal, automated log/git hygiene, scheduled toolchain and dependency CVE checks, and manifest parity verification.
 
 *Source walkthroughs and live demonstrations are available during technical interviews.*
