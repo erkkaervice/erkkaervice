@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img alt="Erkka Ala-Lahti — Software Developer and IT Specialist" src="./assets/header-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Erkka Ala-Lahti — Software Developer and IT Specialist" src="./assets/hero-dark.svg" width="100%">
 </picture>
 
 Helsinki, Finland &nbsp;&middot;&nbsp; [LinkedIn](https://linkedin.com/in/erkka-ala-lahti/) &nbsp;&middot;&nbsp; Ervice Oy
