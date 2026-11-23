@@ -2,13 +2,13 @@
 
 *Private repository — Ervice Oy (Helsinki, Finland)* · [Back to Profile](../README.md)
 
-A unified, test-verified shell, terminal, and security toolkit engineered for consistent feature parity across **Bash**, **Zsh**, and **Fish** on Linux, macOS, and Termux — including non-root environments.
+A unified, test-verified shell, terminal, and security toolkit built for consistent feature parity across **Bash**, **Zsh**, and **Fish** on Linux, macOS, and Termux — including non-root environments.
 
 ## Core Design
 
 - **Multi-OS Portability:** Tested across Debian/Ubuntu, openSUSE, Arch, Fedora, NixOS, Alpine, macOS, and Termux with automatic `~/.local/bin` fallback when running without root privileges.
 - **Shell Parity Contract:** Shared command semantics and ergonomics across `.sh_common` (Bash/Zsh) and `.config.fish` (Fish), including responsive Tmux defaults and cross-platform file/URL helpers.
-- **Security Tooling & Hardening:** Opinionated OpenSSH and GnuPG defaults, TLS certificate inspection helpers (`cert-check`, `local-https-check`), and local security audit wrappers (`sec-scan`).
+- **Security Tooling & Defaults:** Opinionated OpenSSH and GnuPG configuration, TLS certificate inspection helpers (`cert-check`, `local-https-check`), and local security audit wrappers (`sec-scan`).
 - **Automated Verification:** Automated `node:test` suites mocking OS/PATH matrices, paired with deterministic portability-drift and secret-leak checks.
 
 *Kept private while host-specific network parameters are externalized; walkthroughs available on request.*

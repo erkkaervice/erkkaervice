@@ -1,18 +1,20 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img alt="Erkka Ala-Lahti — Software, DevOps and Systems Engineer" src="./assets/header-dark.svg" width="100%">
+  <img alt="Erkka Ala-Lahti — Software Developer and IT Specialist" src="./assets/header-dark.svg" width="100%">
 </picture>
 
 Helsinki, Finland &nbsp;&middot;&nbsp; [LinkedIn](https://linkedin.com/in/erkka-ala-lahti/) &nbsp;&middot;&nbsp; Ervice Oy
 
 ---
 
-### Profile
+### About
 
-I bridge the gap between technical infrastructure and pragmatic business requirements. Following an extensive career in entrepreneurship and operational leadership, I graduated from **Hive Helsinki** to turn a lifelong passion for systems engineering into a profession.
+Hi, I'm Erkka — a software developer and IT specialist who actually likes working with people. After a long career in entrepreneurship and operational leadership, I graduated from **Hive Helsinki** to turn a lifelong passion for computers, operating systems, and problem-solving into a tech career.
 
-I work across **DevOps, systems administration, security, full-stack development, and agentic AI workflows** — operating primarily in Linux environments while remaining comfortable across **Windows** and **macOS** setups as well. I am primarily interested in full-time engineering roles, while remaining open to freelance projects and shorter-term contract work as well. For freelance engagements, I can operate through **Ervice Oy**.
+Learning low-level systems programming (C, C++, Unix, networking) alongside the rise of modern AI tools gave me a practical advantage: I understand how systems work under the hood, and I actively use agentic AI workflows to automate work and ship clean, maintainable software faster. I work across **DevOps, systems administration, security, full-stack development, and AI automation** — primarily on Linux, and comfortably across **Windows** and **macOS** environments as well.
+
+I am primarily interested in full-time engineering and IT roles, while remaining open to freelance projects and shorter-term contract work as well. For freelance engagements, I can operate through **Ervice Oy**.
 
 ---
 
@@ -26,12 +28,16 @@ I work across **DevOps, systems administration, security, full-stack development
 ![Tailscale](https://img.shields.io/badge/Tailscale-18181b?style=flat&logo=tailscale&logoColor=FAFAFA)
 ![Git](https://img.shields.io/badge/Git-18181b?style=flat&logo=git&logoColor=F05032)
 ![GNU Make](https://img.shields.io/badge/GNU_Make-18181b?style=flat&logo=gnu&logoColor=E4E4E7)
-![Biome](https://img.shields.io/badge/Biome-18181b?style=flat&logo=biome&logoColor=60A5FA)
-![OWASP ASVS](https://img.shields.io/badge/OWASP_ASVS-18181b?style=flat&logo=owasp&logoColor=FAFAFA)
-![TLS / PKI](https://img.shields.io/badge/TLS_%2F_PKI-18181b?style=flat&logo=letsencrypt&logoColor=38BDF8)
 ![OpenSSH](https://img.shields.io/badge/OpenSSH-18181b?style=flat&logo=openssh&logoColor=E4E4E7)
 ![GnuPG](https://img.shields.io/badge/GnuPG-18181b?style=flat&logo=gnupg&logoColor=0093DD)
+![TLS / PKI](https://img.shields.io/badge/TLS_%2F_PKI-18181b?style=flat&logo=letsencrypt&logoColor=38BDF8)
+![OWASP ASVS](https://img.shields.io/badge/OWASP_ASVS-18181b?style=flat&logo=owasp&logoColor=FAFAFA)
 ![Wireshark](https://img.shields.io/badge/Wireshark-18181b?style=flat&logo=wireshark&logoColor=1679A7)
+![TCPDump](https://img.shields.io/badge/TCPDump-18181b?style=flat)
+![Nmap](https://img.shields.io/badge/Nmap-18181b?style=flat)
+![Lynis](https://img.shields.io/badge/Lynis-18181b?style=flat)
+![Trivy](https://img.shields.io/badge/Trivy-18181b?style=flat)
+![Gitleaks](https://img.shields.io/badge/Gitleaks-18181b?style=flat)
 
 **Full-Stack, Backend & Data**
 
@@ -45,6 +51,8 @@ I work across **DevOps, systems administration, security, full-stack development
 ![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-18181b?style=flat&logo=drizzle&logoColor=C5F74F)
 ![MariaDB](https://img.shields.io/badge/MariaDB-18181b?style=flat&logo=mariadb&logoColor=38BDF8)
 ![Prisma](https://img.shields.io/badge/Prisma-18181b?style=flat&logo=prisma&logoColor=FAFAFA)
+![WordPress](https://img.shields.io/badge/WordPress-18181b?style=flat&logo=wordpress&logoColor=21759B)
+![Biome](https://img.shields.io/badge/Biome-18181b?style=flat&logo=biome&logoColor=60A5FA)
 
 **Languages & Shell**
 
@@ -57,8 +65,10 @@ I work across **DevOps, systems administration, security, full-stack development
 ![Bash](https://img.shields.io/badge/Bash-18181b?style=flat&logo=gnubash&logoColor=4EAA25)
 ![Zsh](https://img.shields.io/badge/Zsh-18181b?style=flat&logo=gnubash&logoColor=E4E4E7)
 ![Fish](https://img.shields.io/badge/Fish-18181b?style=flat&logo=linux&logoColor=38BDF8)
+![Neovim](https://img.shields.io/badge/Neovim-18181b?style=flat&logo=neovim&logoColor=57A143)
+![Valgrind](https://img.shields.io/badge/Valgrind-18181b?style=flat)
 
-**Platforms & Environments**
+**Operating Systems**
 
 ![Debian](https://img.shields.io/badge/Debian-18181b?style=flat&logo=debian&logoColor=A81D33)
 ![openSUSE](https://img.shields.io/badge/openSUSE-18181b?style=flat&logo=opensuse&logoColor=73BA25)
@@ -75,13 +85,13 @@ I work across **DevOps, systems administration, security, full-stack development
 ### Selected Systems & Projects
 
 #### [Self-Hosted AI Engineering Platform](./docs/agent-farm.md) *(Private — Ervice Oy)*
-Zero-dependency **Node.js** multi-model orchestration and telemetry platform running continuously on constrained Debian hardware (`systemd`, `cgroups`, `zram`, TLS, Tmux web terminal). Coordinates LLM providers behind deterministic SAST, secret-scanning, language, and anti-bloat gates with human approval before every merge. [Read architecture overview](./docs/agent-farm.md).
+Zero-dependency **Node.js** multi-model orchestration and telemetry platform running continuously on self-hosted Debian hardware (`systemd`, `cgroups`, `zram`, TLS, Tmux web terminal). Coordinates LLM providers behind deterministic SAST, secret-scanning, language, and anti-bloat checks with human approval before every merge. [Read architecture overview](./docs/agent-farm.md).
 
 #### [Event & Streaming Platform](./docs/event-platform.md) *(Private — Ervice Oy)*
-Full-stack multi-tenant TypeScript monorepo (**Fastify**, **tRPC**, **Zod**, **PostgreSQL/PostGIS**, **Drizzle ORM**, **MediaMTX**) combining an offline-first foldable festival PWA, low-latency ticketed LL-HLS video streams, and background radio. Hardened with Fail-Closed admin authentication, constant-time HMAC tokens, and SSRF protection. [Read architecture overview](./docs/event-platform.md).
+Full-stack multi-tenant TypeScript monorepo (**Fastify**, **tRPC**, **Zod**, **PostgreSQL/PostGIS**, **Drizzle ORM**, **MediaMTX**) combining an offline-first foldable festival PWA, low-latency ticketed LL-HLS video streams, and background radio — built with Fail-Closed admin auth, constant-time HMAC tokens, and SSRF protection. [Read architecture overview](./docs/event-platform.md).
 
 #### [Cross-Platform Shell & Security Environment (.dotfiles)](./docs/dotfiles.md) *(Private — Ervice Oy)*
-Unified **Bash**, **Zsh**, and **Fish** configuration ecosystem engineered for consistent feature parity and non-root portability across Linux distributions, macOS, and Termux, backed by OpenSSH/GnuPG hardening and automated parity and secret-leak test suites. [Read overview](./docs/dotfiles.md).
+Unified **Bash**, **Zsh**, and **Fish** configuration toolkit engineered for consistent feature parity and non-root portability across Linux distributions, macOS, and Termux, backed by OpenSSH/GnuPG defaults and automated parity and secret-leak tests. [Read overview](./docs/dotfiles.md).
 
 #### [hive-inception](https://github.com/erkkaervice/hive-inception) *(Public · Docker / NGINX)*
 Multi-container infrastructure (**NGINX**, **WordPress**, **MariaDB**) built from base Alpine/Debian images with TLS termination, persistent volumes, and isolated networks.
@@ -101,14 +111,16 @@ Real-time multi-user SPA with centralized authentication and containerized backe
 
 ### Background & Community IT
 
-**Operational Leadership & Technical Rollouts** — Founded and led businesses across hospitality, events, coaching, and manufacturing. Coordinated nationwide digital kitchen management system rollouts (**Koutsit**) and executed customer migrations, account configuration, data validation, and independent technical support (**TableOnline**).
+**System Rollouts, Onboarding & Operations** — Supported customer system migrations, onboarding, account configuration, data validation, and independent technical support (**TableOnline**). Coordinated nationwide digital kitchen management system rollouts and user training (**Koutsit**), alongside founding and leading businesses across hospitality, events, coaching, and manufacturing.
 
-**Systems Engineering & Volunteer IT** — Graduate of **Hive Helsinki**'s peer-to-peer curriculum grounded in C/C++ and Unix fundamentals. Serve as Volunteer IT Specialist and Vice Board Member for **FSE**, managing end-to-end infrastructure (Moodle server, WordPress sites, hosting, Netvisor and Paytrail integrations) and building an on-site information security training program for students in Tanzania.
+**Volunteer IT Specialist & Vice Board Member (FSE Tanzania)** — Manage end-to-end IT infrastructure for a charity supporting disabled students in Tanzania (Moodle server, WordPress sites, web hosting, Netvisor and Paytrail integrations) and develop an on-site information security training program.
+
+**Education** — Graduate of **Hive Helsinki** (peer-to-peer software engineering academy; Product Owner for the final project) and **Tampere University of Applied Sciences** (Bachelor of Hospitality Management).
 
 ---
 
 ### Contact
 
-- **Availability:** Primarily seeking full-time roles across **DevOps, Systems Administration, Security, Full-Stack Development, and Agentic AI / Automation**; also open to selective freelance and short-term contract work (via **Ervice Oy**).
+- **Availability:** Primarily seeking full-time roles across **DevOps, Systems Administration, Security, Full-Stack Development, and Agentic AI / Automation**; also open to freelance and short-term contract work (via **Ervice Oy**).
 - **Primary Channel:** [LinkedIn](https://linkedin.com/in/erkka-ala-lahti/) *(GitHub serves as my technical portfolio; connect on LinkedIn for roles and collaborations)*.
 - **Languages:** Finnish (Native), English (Professional), Swedish & Spanish (Conversational / Basic).

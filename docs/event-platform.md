@@ -2,7 +2,7 @@
 
 *Private repository — Ervice Oy (Helsinki, Finland)* · [Back to Profile](../README.md)
 
-A multi-tenant TypeScript monorepo built for festivals, live music venues, and continuous radio broadcasts — engineered to keep working reliably with zero cellular reception while supporting ticketed low-latency video streams.
+A multi-tenant TypeScript monorepo built for festivals, live music venues, and continuous radio broadcasts — designed to keep working reliably with zero cellular reception while supporting ticketed low-latency video streams.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../assets/arch-event-platform-dark.svg">
