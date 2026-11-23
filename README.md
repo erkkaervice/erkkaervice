@@ -113,7 +113,7 @@ Real-time multi-user SPA with centralized authentication and containerized backe
 
 **System Rollouts, Onboarding & Operations** — Supported customer system migrations, onboarding, account configuration, data validation, and independent technical support (**TableOnline**). Coordinated nationwide digital kitchen management system rollouts and user training (**Koutsit**), alongside founding and leading businesses across hospitality, events, coaching, and manufacturing.
 
-**Volunteer IT Specialist & Vice Board Member (FSE Tanzania)** — Manage end-to-end IT infrastructure for a charity supporting disabled students in Tanzania (Moodle server, WordPress sites, web hosting, Netvisor and Paytrail integrations) and develop an on-site information security training program.
+**IT Specialist & Vice Board Member (FSE Tanzania)** — Manage end-to-end IT infrastructure for a charity supporting disabled students in Tanzania (Moodle server, WordPress sites, web hosting, Netvisor and Paytrail integrations) and develop an on-site information security training program.
 
 **Education** — Graduate of **Hive Helsinki** (peer-to-peer software engineering academy; Product Owner for the final project) and **Tampere University of Applied Sciences** (Bachelor of Hospitality Management).
 
