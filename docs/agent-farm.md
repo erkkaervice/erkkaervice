@@ -2,7 +2,7 @@
 
 *Private repository — Ervice Oy (Helsinki, Finland)* · [Back to Profile](../README.md)
 
-A zero-dependency Node.js orchestration, guardrail, and telemetry platform running continuously on constrained self-hosted Debian hardware (`systemd`, `cgroups`, `zram`). It automates code maintenance, testing, and refactoring across repositories while enforcing strict deterministic safety checks before any pull request is opened.
+A zero-npm-dependency Node.js orchestration, guardrail, and telemetry platform running continuously on constrained self-hosted Debian hardware (`systemd`, `cgroups`, `zram`). It automates code maintenance, testing, and refactoring across repositories while enforcing strict deterministic safety checks before any pull request is opened.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../assets/arch-agent-farm-dark.svg">

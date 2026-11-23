@@ -85,7 +85,7 @@ I am primarily interested in full-time engineering and IT roles, while remaining
 ### Selected Systems & Projects
 
 #### [Self-Hosted AI Engineering Platform](./docs/agent-farm.md) *(Private — Ervice Oy)*
-Zero-dependency **Node.js** multi-model orchestration and telemetry platform running continuously on self-hosted Debian hardware (`systemd`, `cgroups`, `zram`, TLS, Tmux web terminal). Coordinates LLM providers behind deterministic SAST, secret-scanning, language, and anti-bloat checks with human approval before every merge. [Read architecture overview](./docs/agent-farm.md).
+Zero-npm-dependency **Node.js** multi-model orchestration and telemetry platform running continuously on self-hosted Debian hardware (`systemd`, `cgroups`, `zram`, TLS, Tmux web terminal). Coordinates LLM providers behind deterministic SAST, secret-scanning, language, and anti-bloat checks with human approval before every merge. [Read architecture overview](./docs/agent-farm.md).
 
 #### [Event & Streaming Platform](./docs/event-platform.md) *(Private — Ervice Oy)*
 Full-stack multi-tenant TypeScript monorepo (**Fastify**, **tRPC**, **Zod**, **PostgreSQL/PostGIS**, **Drizzle ORM**, **MediaMTX**) combining an offline-first foldable festival PWA, low-latency ticketed LL-HLS video streams, and background radio — built with Fail-Closed admin auth, constant-time HMAC tokens, and SSRF protection. [Read architecture overview](./docs/event-platform.md).
